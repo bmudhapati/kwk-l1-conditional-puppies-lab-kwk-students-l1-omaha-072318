@@ -11,11 +11,11 @@ end
 
 def less_puppies(number)
   if number < 3
-    print "Good job"
+    puts "Good job"
   elsif number == 3
-    print "slow down"
+    puts "slow down"
   elsif number > 3
-    print "restrict number of puppies"
+    puts "restrict number of puppies"
 end
 
 
@@ -24,7 +24,7 @@ end
 
 def some_puppies(number_of_puppies, maximum_puppies)
   if number_of_puppies < 0.5 * maximum_puppies
-    print "good job"
+    puts "good job"
   elsif number_of_puppies > 0.5 * maximum_puppies
 end
     
