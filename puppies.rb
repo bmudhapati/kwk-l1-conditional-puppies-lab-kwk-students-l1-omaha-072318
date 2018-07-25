@@ -14,9 +14,9 @@ def less_puppies(number)
   if number < 3
     puts "Good job"
   elsif number == 3
-    puts "slow down"
+    puts "Slow down! No more puppies."
   elsif number > 3
-    puts "restrict number of puppies"
+    puts "Get back to your animal goals!"
 end
 end
 
