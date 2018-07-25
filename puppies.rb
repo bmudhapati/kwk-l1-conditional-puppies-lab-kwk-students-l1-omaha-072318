@@ -41,7 +41,7 @@ end
 
 def both_animals (number_of_puppies, number_of_cats)
   if number_of_puppies || number_of_cats = 0
-    "Good job!"
+    "Get back to your animal goals!"
   elsif number_of_puppies > 1 && number_of_cats > 1
     "Get back to your animal goals!"
 end
